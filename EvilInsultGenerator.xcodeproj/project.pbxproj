@@ -3,27 +3,35 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		860C7313E1A06EA15F671557 /* Pods_EvilInsultGenerator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AFE2CBAA38D5E4837E6ED15 /* Pods_EvilInsultGenerator.framework */; };
 		DFF4B9FD26A5960E00769595 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF4B9FC26A5960E00769595 /* AppDelegate.swift */; };
 		DFF4B9FF26A5960E00769595 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF4B9FE26A5960E00769595 /* SceneDelegate.swift */; };
-		DFF4BA0126A5960E00769595 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF4BA0026A5960E00769595 /* ViewController.swift */; };
-		DFF4BA0426A5960E00769595 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFF4BA0226A5960E00769595 /* Main.storyboard */; };
 		DFF4BA0626A5960E00769595 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFF4BA0526A5960E00769595 /* Assets.xcassets */; };
 		DFF4BA0926A5960E00769595 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFF4BA0726A5960E00769595 /* LaunchScreen.storyboard */; };
+		DFF4BA1126A59FBC00769595 /* InsultController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF4BA1026A59FBC00769595 /* InsultController.swift */; };
+		DFF4BA1326A5A16C00769595 /* InsultVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF4BA1226A5A16C00769595 /* InsultVIew.swift */; };
+		DFF4BA1526A5CB6600769595 /* Insult.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF4BA1426A5CB6600769595 /* Insult.swift */; };
+		DFF4BA1926A7244A00769595 /* NotificationNameExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF4BA1826A7244A00769595 /* NotificationNameExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		23339AA19D9F15FD3B82D204 /* Pods-EvilInsultGenerator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EvilInsultGenerator.debug.xcconfig"; path = "Target Support Files/Pods-EvilInsultGenerator/Pods-EvilInsultGenerator.debug.xcconfig"; sourceTree = "<group>"; };
+		3AFE2CBAA38D5E4837E6ED15 /* Pods_EvilInsultGenerator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EvilInsultGenerator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AFC437D198BA0264A929DE9 /* Pods-EvilInsultGenerator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EvilInsultGenerator.release.xcconfig"; path = "Target Support Files/Pods-EvilInsultGenerator/Pods-EvilInsultGenerator.release.xcconfig"; sourceTree = "<group>"; };
 		DFF4B9F926A5960E00769595 /* EvilInsultGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EvilInsultGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFF4B9FC26A5960E00769595 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DFF4B9FE26A5960E00769595 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DFF4BA0026A5960E00769595 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DFF4BA0326A5960E00769595 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DFF4BA0526A5960E00769595 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DFF4BA0826A5960E00769595 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DFF4BA0A26A5960E00769595 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFF4BA1026A59FBC00769595 /* InsultController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsultController.swift; sourceTree = "<group>"; };
+		DFF4BA1226A5A16C00769595 /* InsultVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsultVIew.swift; sourceTree = "<group>"; };
+		DFF4BA1426A5CB6600769595 /* Insult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Insult.swift; sourceTree = "<group>"; };
+		DFF4BA1826A7244A00769595 /* NotificationNameExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationNameExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +39,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				860C7313E1A06EA15F671557 /* Pods_EvilInsultGenerator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		958A9D811C681D4C8AD34CDA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3AFE2CBAA38D5E4837E6ED15 /* Pods_EvilInsultGenerator.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C05B66FA6E61177CF7D33AC9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				23339AA19D9F15FD3B82D204 /* Pods-EvilInsultGenerator.debug.xcconfig */,
+				8AFC437D198BA0264A929DE9 /* Pods-EvilInsultGenerator.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		DFF4B9F026A5960D00769595 = {
 			isa = PBXGroup;
 			children = (
 				DFF4B9FB26A5960E00769595 /* EvilInsultGenerator */,
 				DFF4B9FA26A5960E00769595 /* Products */,
+				C05B66FA6E61177CF7D33AC9 /* Pods */,
+				958A9D811C681D4C8AD34CDA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,11 +86,13 @@
 			children = (
 				DFF4B9FC26A5960E00769595 /* AppDelegate.swift */,
 				DFF4B9FE26A5960E00769595 /* SceneDelegate.swift */,
-				DFF4BA0026A5960E00769595 /* ViewController.swift */,
-				DFF4BA0226A5960E00769595 /* Main.storyboard */,
 				DFF4BA0526A5960E00769595 /* Assets.xcassets */,
 				DFF4BA0726A5960E00769595 /* LaunchScreen.storyboard */,
 				DFF4BA0A26A5960E00769595 /* Info.plist */,
+				DFF4BA1026A59FBC00769595 /* InsultController.swift */,
+				DFF4BA1226A5A16C00769595 /* InsultVIew.swift */,
+				DFF4BA1426A5CB6600769595 /* Insult.swift */,
+				DFF4BA1826A7244A00769595 /* NotificationNameExtension.swift */,
 			);
 			path = EvilInsultGenerator;
 			sourceTree = "<group>";
@@ -74,9 +104,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DFF4BA0D26A5960E00769595 /* Build configuration list for PBXNativeTarget "EvilInsultGenerator" */;
 			buildPhases = (
+				784434D2A5C7742C97606BBA /* [CP] Check Pods Manifest.lock */,
 				DFF4B9F526A5960E00769595 /* Sources */,
 				DFF4B9F626A5960E00769595 /* Frameworks */,
 				DFF4B9F726A5960E00769595 /* Resources */,
+				91C2B421FA8100290EB7F29D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,18 +158,62 @@
 			files = (
 				DFF4BA0926A5960E00769595 /* LaunchScreen.storyboard in Resources */,
 				DFF4BA0626A5960E00769595 /* Assets.xcassets in Resources */,
-				DFF4BA0426A5960E00769595 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		784434D2A5C7742C97606BBA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EvilInsultGenerator-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91C2B421FA8100290EB7F29D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EvilInsultGenerator/Pods-EvilInsultGenerator-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EvilInsultGenerator/Pods-EvilInsultGenerator-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EvilInsultGenerator/Pods-EvilInsultGenerator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DFF4B9F526A5960E00769595 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFF4BA0126A5960E00769595 /* ViewController.swift in Sources */,
+				DFF4BA1126A59FBC00769595 /* InsultController.swift in Sources */,
+				DFF4BA1526A5CB6600769595 /* Insult.swift in Sources */,
+				DFF4BA1326A5A16C00769595 /* InsultVIew.swift in Sources */,
+				DFF4BA1926A7244A00769595 /* NotificationNameExtension.swift in Sources */,
 				DFF4B9FD26A5960E00769595 /* AppDelegate.swift in Sources */,
 				DFF4B9FF26A5960E00769595 /* SceneDelegate.swift in Sources */,
 			);
@@ -146,14 +222,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		DFF4BA0226A5960E00769595 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DFF4BA0326A5960E00769595 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DFF4BA0726A5960E00769595 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -283,6 +351,7 @@
 		};
 		DFF4BA0E26A5960E00769595 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23339AA19D9F15FD3B82D204 /* Pods-EvilInsultGenerator.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -296,12 +365,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Gladkov.EvilInsultGenerator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		DFF4BA0F26A5960E00769595 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AFC437D198BA0264A929DE9 /* Pods-EvilInsultGenerator.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -315,7 +385,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Gladkov.EvilInsultGenerator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
